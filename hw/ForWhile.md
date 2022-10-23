@@ -15,6 +15,8 @@ So all new homework will be listed here. I won't be using email because it reduc
 
 ### Challenge problems
 1. Create a python program that gets the results shown below for ANY given input
+
+```
 (number = 1)
 *
 
@@ -24,8 +26,11 @@ So all new homework will be listed here. I won't be using email because it reduc
 ***
 ****
 *****
+```
 
 2. input a number and print out the following
+
+```
 (number = 5)
 *****
 _****
@@ -35,10 +40,11 @@ ____*
 
 (number = 1)
 *
-
-Challenge Problems:
+```
 
 3. Print a number and print out the following
+
+```
 (number = 5)
 *_*_*
 *_*_
@@ -52,3 +58,4 @@ Challenge Problems:
 *_*  
 *_
 *
+```
