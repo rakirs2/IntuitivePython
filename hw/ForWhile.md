@@ -1,7 +1,7 @@
 # For while redux
 
 ## Misc
-So all new homework will be listed here. I won't be using email because it reduces 1 step from my steps to do every week
+So all new homework will be listed here.
 
 ## HW
 1. Create an account at [projectEuler.org](https://projecteuler.net/)
