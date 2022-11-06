@@ -35,7 +35,7 @@
         "div": "South"
     },
     {
-        "city": "Cincinati",
+        "city": "Cincinnati",
         "name": "Bengals",
         "abr": "CIN",
         "conf": "AFC",
@@ -175,7 +175,7 @@
         "div": "North"
     },
     {
-        "city": "San Diego",
+        "city": "Los Angeles",
         "name": "Chargers",
         "abr": "SD",
         "conf": "AFC",
@@ -196,9 +196,9 @@
         "div": "West"
     },
     {
-        "city": "St. Louis",
+        "city": "Los Angeles",
         "name": "Rams",
-        "abr": "STL",
+        "abr": "LAR",
         "conf": "NFC",
         "div": "West"
     },
@@ -218,7 +218,7 @@
     },
     {
         "city": "Washington",
-        "name": "Redskins",
+        "name": "Commanders",
         "abr": "WAS",
         "conf": "NFC",
         "div": "East"

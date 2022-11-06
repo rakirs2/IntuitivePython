@@ -4,12 +4,14 @@ file = open("nflteams.json")
 
 teams = json.load(file)
 
+wantedCity = input("Which city do you want?")
 for team in teams:
-    print(team["city"])
-    print(team["name"])
-    print(team["abr"])
-    print(team["conf"])
-    print(team["div"])
+    if team["city"]==wantedCity:
+        # print(team["city"])
+        print(team["name"])
+        # print(team["abr"])
+        # print(team["conf"])
+        # print(team["div"])
 
 
 

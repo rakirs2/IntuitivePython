@@ -10,13 +10,13 @@ import pokebase
 
 
 ## what is wrong with this?
-# for i in range(151):
-#     print(pokebase.pokemon(i))
+for i in range(4,7):
+    print(i, pokebase.pokemon(i))
 
 
-## how can we simplify it?
-gen_resource = pokebase.generation(1)
+# ## how can we simplify it?
+# gen_resource = pokebase.generation(1)
 
-print(gen_resource)
-for pokemon in gen_resource.pokemon_species:
-    print(pokemon)
+# print(gen_resource)
+# for pokemon in gen_resource.pokemon_species:
+#     print(pokemon)
