@@ -1,10 +1,22 @@
 import pokebase
 
+## https://pokebase.readthedocs.io/en/latest/
 
 ## pokemon by numbers from ranges;
 
 ## how to get certain ranges
 
 ## get certain types?
-print(pokebase.pokemon(1))
 
+
+## what is wrong with this?
+# for i in range(151):
+#     print(pokebase.pokemon(i))
+
+
+## how can we simplify it?
+gen_resource = pokebase.generation(1)
+
+print(gen_resource)
+for pokemon in gen_resource.pokemon_species:
+    print(pokemon)
