@@ -4,10 +4,9 @@ This is the repo dedicated to my creating a curriculum for a 4th --> 5th grader.
 
 ## Assumptions from this point
 - Can get a program running
-- is familiar with their shell env
-- has basic understandings of for/while etc.
 - We're using a python for [kids book](https://www.amazon.com/Python-Kids-Playful-Introduction-Programming/dp/1593274076/ref=sr_1_1?crid=2PIBSMVYES5Q9&keywords=python+for+kids&qid=1666965299&qu=eyJxc2MiOiIzLjQ3IiwicXNhIjoiMi42NiIsInFzcCI6IjIuNjIifQ%3D%3D&sprefix=python+for+kid%2Caps%2C130&sr=8-1) and are at "classes and definitions for now" 
 - For [adults](https://www.amazon.com/Python-Crash-Course-2nd-Edition/dp/1593279280/ref=sr_1_1?crid=106XAKPYOLQAI&keywords=python+crash+course&qid=1669564800&sprefix=python+crash+cou%2Caps%2C208&sr=8-1) 
+- [This is known](https://github.com/rakirs2/general-notes/blob/main/ShellBasics.md)
 
 ## Some things I'm trying to enforce
 - All work on this comes AFTER schoolwork/house chores etc.
