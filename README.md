@@ -1,4 +1,5 @@
-# PythonicThinking
+# IntuitivePython
+
 This is the repo dedicated to my creating a curriculum for a 4th --> 5th grader. We'll see where it goes :)
 
 ## Assumptions from this point
