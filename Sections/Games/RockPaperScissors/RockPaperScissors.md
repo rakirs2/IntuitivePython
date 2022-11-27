@@ -17,7 +17,7 @@
 The goal of this is simply to get the student used to using the basic commands and creating something with those building blocks
 
 ## Submissions
-- Trying this, just use github copy and paste via the CLI and create a PR.
+- GitHub copy and paste via the CLI and create a PR.
 
 ## Future Ideas 
 - [ ] Make the computer always win (show results)
