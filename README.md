@@ -13,3 +13,12 @@ This is the repo dedicated to my creating a curriculum for a 4th --> 5th grader.
 - Trying my best to do the problems as I can in C/C++/C# to have an answer key of sorts
 - Slowly integrating tools/concepts one at a time
 - Learn then do. Don't move on until "Do" is done.
+
+
+## Things that are working
+- spending time/having fun
+- showing things that work and having the student recreate them
+- giving answer keys?
+
+## Things that need reconsideration
+- Remember the student's age. Just because you (Srikar) learned in College as a first language doesn't meant that everyone should learn that way
