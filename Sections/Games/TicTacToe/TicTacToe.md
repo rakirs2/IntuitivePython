@@ -25,3 +25,7 @@ The goal of this is to build off of Rock Paper Scissors but add harder logic/mor
   - [ ] Make the computer "static"
   - [ ] Make the computer "always tie"
 - [ ] Add a GUI
+
+## Solutions
+
+>! I solemnly swear I tried for at least 30 minutes
