@@ -1,23 +1,36 @@
 import random
-while True: 
-    player2 = None
-    rpslist =  ["rock","paper","scissors"]
-    print("Do you want to play a game of rock paper scissors yes or no")
-    y=input()
-    if y==('yes'):
-        print('pick between rock,paper,or scissors')
-    if y==('no'):
-        break
+# while True:
+
+
+
+
+
+
+
+
+player1score=0
+player2score=0     
+rpslist =  ["rock","paper","scissors"]
+while True:
+    # get player input
+    print('pick between rock,paper,or scissors')
     player1=input()
 
-    if player1 in rpslist:
-        player2 = random.choice(rpslist)
-        print(player2)   
-
-    if player2==('rock') and player1==('rock'):
+    # create player 2
+    player2 = random.choice(rpslist)
+    print('your choice: '+player1+'\ncomputer choice: '+player2)   
+    # check and update score
+    if player1==player2:
         print('tie')
-    if player2==('paper') and player1==('rock'):
-        print('player 2 wins')
-    if player2==('rock') and player1==('rock'):
-        while False:
-            'break'
+    # player1 wins
+    elif(player1=='paper' and player2=='rock' or player1=='rock' and player2=='scissors' or player1=='scissors' and player2=='paper'):
+        player1score +=1
+        # computer wins
+    elif(player1=='rock' and player2=='paper' or player1=='scissors' and player2=='rock' or player1=='paper' and player2=='scissors'):
+        player2score +=1
+    # print score
+
+    print('your score: '+str(player1score)+'\ncomputer score: '+str(player2score))
+    c=input('do you want to end')
+    if c=='yes' or c==" yes":
+        break
