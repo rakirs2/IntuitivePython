@@ -1,0 +1,124 @@
+def player1wins():
+    print('player1 you win \nplayer2 you lose')
+def player2wins():
+    print('player2 you win \nplayer1 you lose')    
+x = input('hello your are wanting to play a game of tic tac toe and make sure to have your own oppenent')
+if x=='no'or ' no':
+    'break'
+if x=='yes'or ' yes':
+        
+    print(' a     b     c')  
+    print('1  -  |  -  |  - ') 
+    print(' _____|_____|_____')     
+    print('2  -  |  -  |  -')  
+    print(' _____|_____|_____')     
+    print('3  -  |  -  |  -')  
+    print('      |     |     ')
+    #asking for first input
+    player1 = input('player1/x pick between A1, A2, A3, B1, B2, B3, C1, C2, C3')
+    print(player1)
+    #asking for first input
+    player2 = input('now player2/o pick between A1, A2, A3, B1, B2, B3, C1, C2, C3 but do not pick the same anwser')
+    print(' a     b     c')  
+    print('1  -  |  -  |  - ') 
+    print(' _____|_____|_____')     
+    print('2  -  |  -  |  -')  
+    print(' _____|_____|_____')     
+    print('3  -  |  -  |  -')  
+    print('      |     |     ')
+    print(player2)
+    #asking for second input
+    player12 = input(' player1/x pick between A1, A2, A3, B1, B2, B3, C1, C2, C3')
+    print(' a     b     c')  
+    print('1  -  |  -  |  - ') 
+    print(' _____|_____|_____')     
+    print('2  -  |  -  |  -')  
+    print(' _____|_____|_____')     
+    print('3  -  |  -  |  -')  
+    print('      |     |     ')
+    print(player12)
+    #asking for second input
+    player23 = input('now player2/o pick between A1, A2, A3, B1, B2, B3, C1, C2, C3 but do not pick the same anwser')
+    print(' a     b     c')  
+    print('1  -  |  -  |  - ') 
+    print(' _____|_____|_____')     
+    print('2  -  |  -  |  -')  
+    print(' _____|_____|_____')     
+    print('3  -  |  -  |  -')  
+    print('      |     |     ')
+    print(player23)
+    #asking for third input and tracking 
+    player13 = input(' player1/x pick between A1, A2, A3, B1, B2, B3, C1, C2, C3')
+    print(' a     b     c')  
+    print('1  -  |  -  |  - ') 
+    print(' _____|_____|_____')     
+    print('2  -  |  -  |  -')  
+    print(' _____|_____|_____')     
+    print('3  -  |  -  |  -')  
+    print('      |     |     ')
+    print(player13)
+    if player1+player12+player13==('A1A2A3') or ('A1B1C1') or ('A1B2C3') or ('B1B2B3') or ('C1C2C3') or ('C1B2A3'):
+        player1wins()
+        'break'
+    else:
+        print(' a     b     c')  
+        print('1  -  |  -  |  - ') 
+        print(' _____|_____|_____')     
+        print('2  -  |  -  |  -')  
+        print(' _____|_____|_____')     
+        print('3  -  |  -  |  -')  
+        print('      |     |     ')
+        #asking for third input and tracking    
+        player24 = input('player2/o pick between A1, A2, A3, B1, B2, B3, C1, C2, C3')
+        
+        print(player24)    
+    if player2+player23+player24==('A1A2A3') or ('A1B1C1') or ('A1B2C3') or ('B1B2B3') or ('C1C2C3') or ('C1B2A3'):
+        player2wins()
+        'break'
+    else:
+        print(' a     b     c')  
+        print('1  -  |  -  |  - ') 
+        print(' _____|_____|_____')     
+        print('2  -  |  -  |  -')  
+        print(' _____|_____|_____')     
+        print('3  -  |  -  |  -')  
+        print('      |     |     ')
+        #asking for fourth input and tracking
+        player14=input('player1/x pick between A1, A2, A3, B1, B2, B3, C1, C2, C3')
+        
+        print(player14)
+    if player1+player12+player13 or player12+player13+player14 or player1+player12+player14 or player1+player13+player14==('A1A2A3') or ('A1B1C1') or ('A1B2C3') or ('B1B2B3') or ('C1C2C3') or ('C1B2A3'):
+        player1wins()
+        'break'
+    else:
+        print(' a     b     c')  
+        print('1  -  |  -  |  - ') 
+        print(' _____|_____|_____')     
+        print('2  -  |  -  |  -')  
+        print(' _____|_____|_____')     
+        print('3  -  |  -  |  -')  
+        print('      |     |     ')
+         #asking for fourth input and tracking
+        player25 = input('player2/o pick between A1, A2, A3, B1, B2, B3, C1, C2, C3')
+        
+        print(player25)
+    if  player2+player23+player24 or player23+player24+player25 or player2+player24+player25 or player2+player24+player25==('A1A2A3') or ('A1B1C1') or ('A1B2C3') or ('B1B2B3') or ('C1C2C3') or ('C1B2A3'):
+        player2wins()
+        'break'
+    else:
+        print(' a     b     c')  
+        print('1  -  |  -  |  - ') 
+        print(' _____|_____|_____')     
+        print('2  -  |  -  |  -')  
+        print(' _____|_____|_____')     
+        print('3  -  |  -  |  -')  
+        print('      |     |     ')
+         #asking for fifth input and tracking
+        player15=input('player2/o pick between A1, A2, A3, B1, B2, B3, C1, C2, C3')
+        print(player15)
+    if player1+player12+player13 or player12+player13+player14 or player1+player12+player14 or player1+player13+player14 or player1+player12+player15 or player1+player13+player15 or player12+player13+player15 or player1+player14+player15 or player12+player14+player15 or player13+player14+player15==('A1A2A3') or ('A1B1C1') or ('A1B2C3') or ('B1B2B3') or ('C1C2C3') or ('C1B2A3'):
+        player1wins()
+        'break'
+    else:
+        #nobody won so printing tie
+        print('tie')             
