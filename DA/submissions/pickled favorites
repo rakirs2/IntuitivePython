@@ -1,0 +1,9 @@
+import pickle
+favorites = ['football', 'wrestling', 'weightlifting', 'coding']
+f = open('favorites.dat', 'wb')
+pickle.dump(favorites, f)
+f.close()
+load_favourites= open('favorites.dat', 'rb')
+loaded_favourites=pickle.load(load_favourites)
+load_favourites.close()
+print(loaded_favourites)
