@@ -1,0 +1,4 @@
+#(2-6) Famous Quote 2
+Famous_Person="John Quincy Adams"
+message="“If your actions inspire others to dream more, learn more, do more and become more, you are a leader.”"
+print(Famous_Person,message)
