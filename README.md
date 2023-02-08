@@ -21,8 +21,10 @@ This is the repo dedicated to my creating a curriculum for a 4th --> 5th grader.
 - giving answer keys?
 
 ## Things that need reconsideration
-- Remember the student's age. Just because you (Srikar) learned in College as a first language doesn't meant that everyone should learn that way
+- Remember the student's age. Just because you learned C++ in College as a first language doesn't meant that everyone should learn that way
 - I would consider doing a few of these in C for an older/more mature student. I really love CS50's C --> Python but I think for younger students, some validation beyond hello world is really, really awesome and gets them to code more.
 - I need a better way to handle errors so I want to abuse github so the student has to paste here and I can actually see what they're doing rather than screen shots
 - I want a "database" of potential errors and how to recreate/fix them
 - Creating code is easy, reusing code is hard. I need a way to force understanding that
+- Try not to interfere with their learning. Once they become independent, let them be there and then come to you for help.
+- I want to introduce git. The goal is to use it online gui and then for the second project onwards, we'll use the CLI
