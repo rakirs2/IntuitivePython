@@ -1,0 +1,5 @@
+#(2-6) Famous Quote 2 - Use 2 variables to quote something someone famous said.
+Famous_Person="John Quincy Adams"
+message="“If your actions inspire others to dream more, learn more, do more and become more, you are a leader.”"
+print(f"{Famous_Person}, had this to say during his presidency: {message}")
+#This is an edit from my old version of the file putting it into a quote format.
