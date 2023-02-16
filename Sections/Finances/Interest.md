@@ -18,6 +18,3 @@ Savings rates Market vs Bond vs Interest
 ## interest to the e
 
 ## What is the difference over time for stocks vs bonds vs interest?
-
-## What is inflation
-
