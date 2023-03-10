@@ -1,6 +1,7 @@
 # IntuitivePython
 
 This is the repo dedicated to my creating a curriculum for a 4th --> 5th grader. We'll see where it goes :)
+There's a coincinding curriculum for an 8th --> 9th grader
 
 ## Assumptions from this point
 - Can get a program running
